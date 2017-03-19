@@ -1,6 +1,6 @@
 {
   "name": "tmpfile",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Very lightweight and simply temporary file creator",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,6 @@
     "file"
   ],
   "author": "Richard Coupe",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": "github:rjcoupe/tmpfile"
 }
