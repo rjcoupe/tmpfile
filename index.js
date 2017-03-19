@@ -11,7 +11,7 @@ function _getRandomString() {
 }
 
 function _generateFileName(opts = {}) {
-  var extension = opts.extension ? _validateExtension(opts.extension) : undefined;
+  var extension = opts.extension ? _validateExtension(opts.extension) : '';
   return (opts.prefix || '') + _getRandomString() + (opts.suffix || '') + extension;
 }
 
