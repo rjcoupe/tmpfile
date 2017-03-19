@@ -17,7 +17,8 @@ const filePath = tmpfile(tmpFileOpts);
 ```
 
 ## Notes
-* Files will be created in your OS's temp directory, e.g. `/tmp` for (most?) Linux distributions
+* Files are not created by this package! The paths returned are confirmed as available and valid for you to use yourself.
+* Paths will always be in your OS's temp directory, e.g. `/tmp` for (most?) Linux distributions.
 * Prefixes and suffixes are taken exactly as they are entered - if you want symbols, e.g. hyphens, between them and the file name, be sure to include them yourself!
 * You can enter an extension with or without a dot - one will be added if you miss it out.
 * Entering no extension will result in an extensionless file name, which is just fine.

@@ -1,6 +1,6 @@
 {
   "name": "tmpfile",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Very lightweight and simply temporary file creator",
   "main": "index.js",
   "scripts": {
