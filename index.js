@@ -6,8 +6,7 @@ var tmpDir = require('os').tmpdir();
 var crypto = require('crypto');
 
 function _getRandomString() {
-  return Math.abs(Math.random().toString().split('')
-    .reduce(function(p,c){return (p<<5)-p+c})).toString(36).substr(0,24);
+  return Math.random().toString(36).substr(2, 24);
 }
 
 function _generateFileName(opts = {}) {
