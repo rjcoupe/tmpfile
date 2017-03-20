@@ -1,10 +1,10 @@
 {
   "name": "tmpfile",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Very lightweight and simply temporary file creator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/"
   },
   "keywords": [
     "tempfile",
@@ -13,5 +13,9 @@
   ],
   "author": "Richard Coupe",
   "license": "MIT",
-  "repository": "github:rjcoupe/tmpfile"
+  "repository": "github:rjcoupe/tmpfile",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "sinon": "^2.0.0"
+  }
 }
